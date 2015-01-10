@@ -1,0 +1,10 @@
+<!--
+  ~ (c) 2011 Anthony Sandrin
+  ~ This code is licensed under MIT license (see LICENSE.txt for details)
+  -->
+
+<resources>
+    <string name="app_name">XKCD Widget</string>
+    <string name="error_title">Error</string>
+    <string name="error_text">Unable to get comic.</string>
+</resources>

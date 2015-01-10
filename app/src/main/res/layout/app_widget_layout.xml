@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ (c) 2011 Anthony Sandrin
+  ~ This code is licensed under MIT license (see LICENSE.txt for details)
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/app_widget_padding"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="@dimen/title_size"
+            android:id="@+id/title"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_margin="@dimen/widget_padding"
+            android:padding="@dimen/widget_padding"
+            android:textColor="@color/primary_text_default_material_light"
+            android:background="@drawable/card"
+            android:elevation="2dp" />
+
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/sync"
+            android:layout_margin="@dimen/widget_padding"
+            android:padding="@dimen/widget_padding"
+            android:elevation="2dp"
+            android:src="@android:drawable/stat_notify_sync"
+            android:scaleType="fitCenter"
+            android:background="@drawable/circle_button"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/image"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/widget_padding"
+        android:padding="@dimen/widget_padding"
+        android:background="@drawable/card"
+        android:elevation="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/alt_text_size"
+        android:id="@+id/alt_text"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/widget_padding"
+        android:padding="@dimen/widget_padding"
+        android:textColor="@color/primary_text_default_material_light"
+        android:background="@drawable/card"
+        android:elevation="2dp" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ (c) 2011 Anthony Sandrin
+  ~ This code is licensed under MIT license (see LICENSE.txt for details)
+  -->
+
+<resources>
+    <color name="background_color">#2196f3</color>
+    <color name="circle_button_color">#FF5722</color>
+    <color name="circle_button_ripple_color">#7fffffff</color>
+    <color name="card_color">#ffffff</color>
+</resources>

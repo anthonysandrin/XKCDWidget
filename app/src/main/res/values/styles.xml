@@ -1,0 +1,11 @@
+<!--
+  ~ (c) 2011 Anthony Sandrin
+  ~ This code is licensed under MIT license (see LICENSE.txt for details)
+  -->
+
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material">
+    </style>
+
+</resources>

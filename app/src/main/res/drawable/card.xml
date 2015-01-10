@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <!--
+  ~ (c) 2011 Anthony Sandrin
+  ~ This code is licensed under MIT license (see LICENSE.txt for details)
+  -->
+
+<shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:dither="true"
+            android:shape="rectangle">
+            <corners android:radius="@dimen/corner_radius" />
+            <solid android:color="@color/card_color" />
+        </shape>

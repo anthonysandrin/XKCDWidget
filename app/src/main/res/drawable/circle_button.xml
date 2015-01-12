@@ -5,14 +5,9 @@
   ~ This code is licensed under MIT license (see LICENSE.txt for details)
   -->
 
-<ripple
+<shape
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="@color/circle_button_ripple_color">
-    <item>
-        <shape
-            android:dither="true"
-            android:shape="oval">
-            <solid android:color="@color/circle_button_color" />
-        </shape>
-    </item>
-</ripple>
+    android:dither="true"
+    android:shape="oval">
+    <solid android:color="@color/circle_button_color" />
+</shape>
